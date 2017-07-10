@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Fishpig_ContactsUrl</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://fishpig.co.uk/license.txt">FishPig EULA</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Change the Contacts page URL from contacts to something more sensible.</summary>
+    <description>Change the Contacts page URL from contacts to something more sensible.</description>
+    <notes>First stable release.</notes>
+    <authors><author><name>fishpig</name><user>fishpig</user><email>ben@fishpig.co.uk</email></author></authors>
+    <date>2013-03-07</date>
+    <time>23:17:27</time>
+    <contents><target name="magecommunity"><dir name="Fishpig"><dir name="ContactsUrl"><dir name="Model"><file name="Observer.php" hash="ba2fc4d5edaf702453b7ae80c05784ba"/></dir><dir name="etc"><file name="config.xml" hash="556ebd0530ddb5df0b1a160760cec037"/><file name="system.xml" hash="f00271f6e2565fb6e1e0e003cb4772ad"/></dir></dir></dir></target><target name="mageweb"><dir name="app"><dir name="etc"><dir name="modules"><file name="Fishpig_ContactsUrl.xml" hash="03b90cc9357bd191a39f9cb52ebb6001"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
